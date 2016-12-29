@@ -15,6 +15,6 @@ Instructions:
 - Change directories
   - `cd pdns2route53`
 - Make the PHP script executable
-  - `chmod a+x`
+  - `chmod a+x pdns2route53`
 - Run the script for *zone.com* and pipe it to bash 
   - `./pdns2route53 -z zone.com | bash`
